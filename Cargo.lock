@@ -106,7 +106,8 @@ checksum = "acbf1af155f9b9ef647e42cdc158db4b64a1b61f743629225fde6f3e0be2a7c7"
 
 [[package]]
 name = "cwcat"
-version = "0.1.0"
+version = "0.1.1"
+source = "git+https://github.com/junetried/cwcat.git#22e5161521e9d84b185e06b185eaa4be228cad0c"
 dependencies = [
  "matroska-demuxer",
  "webm",

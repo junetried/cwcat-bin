@@ -36,7 +36,7 @@ game saves recordings in. This directory and its contents are deleted when you
 quit the game, so be careful! The default location for this directory looks
 something like this:
 
-**Windows:** `%APPDATALOCAL%\Temp\rec`
+**Windows:** `%LOCALAPPDATA%\Temp\rec`
 
 **Linux:** `~/.local/share/Steam/steamapps/compatdata/2881650/pfx/drive_c/users/steamuser/Temp/rec`
 

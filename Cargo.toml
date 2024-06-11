@@ -15,4 +15,4 @@ pretty-time = ["dep:chrono"]
 [dependencies]
 cwcat = { git = "https://github.com/junetried/cwcat.git" }
 clap = "4.5.4"
-chrono = { version = "0.4.38", optional = true, default_features = false, features = ["alloc", "std"] }
+chrono = { version = "0.4.38", optional = true, default_features = false, features = ["alloc", "std", "clock"] }

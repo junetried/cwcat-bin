@@ -126,7 +126,7 @@ pub fn print_metadata<P>(path: P) -> Result<(), CWCatError> where P: Into<PathBu
 		println!("{:?}", metadata.created()?);
 		#[cfg(feature = "pretty-time")]
 		{
-			let time = chrono::DateTime::from(metadata.created()?);
+			let time = chrono::DateTime::<chrono::Local>::from(metadata.created()?);
 			println!("{}", time.format("%d %b %Y %r"))
 		}
 	}
